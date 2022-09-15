@@ -33,20 +33,20 @@
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What is the Difference Between var, let, and const in JavaScript?
+                            Difference between local storage and session storage?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>The differences between var, let, and const variable declaration in JavaScript
-                                include:</strong>
-                            Variables declared with var and const are scoped to the immediate function body.
-                            Variables declared with the var keyword are hoisted. Hoisting means that the variable can be
-                            accessed in their enclosing scope even before they are declared.
-                            Variables declared with the let keyword are block-scoped, which means the variables will
-                            have scope to the immediate enclosing block.
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                            Local Storage: This read-only interface property provides access to the Document’s local
+                            storage object, the stored data is stored across browser sessions. Similar to
+                            sessionStorage, except that localStorage data gets cleared when the page session ends – that
+                            is when the page is closed. It is cleared when the last “private” tab of a browser is closed
+                            (localStorage data for a document loaded in a private browsing or incognito session).
+                            Session Storage objects can be accessed using the sessionStorage read-only property. The
+                            difference between sessionStorage and localStorage is that localStorage data does not
+                            expire, whereas sessionStorage data is cleared when the page session ends.
                         </div>
                     </div>
                 </div>
